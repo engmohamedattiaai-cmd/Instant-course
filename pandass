@@ -1,0 +1,15 @@
+| الأمر             | وظيفته              |
+| ----------------- | ------------------- |
+| `pd.Series()`     | إنشاء Series        |
+| `pd.DataFrame()`  | إنشاء DataFrame     |
+| `.values`         | إظهار القيم         |
+| `.index`          | إظهار الـ Index     |
+| `.dtype`          | معرفة نوع البيانات  |
+| `.name`           | اسم الـ Series      |
+| `.index.name`     | اسم الـ Index       |
+| `.iloc[]`         | الوصول حسب Position |
+| `del`             | حذف Column/عنصر     |
+| `.T`              | Transpose           |
+| `pd.read_csv()`   | قراءة CSV           |
+| `pd.read_excel()` | قراءة Excel         |
+| `pd.read_json()`  | قراءة JSON          |
