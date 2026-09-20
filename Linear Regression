@@ -1,0 +1,88 @@
+                  Linear Regression        الخريطة الذهنية الكبرى
+                        │
+        ┌───────────────┼────────────────┐
+        ↓               ↓                ↓
+ Supervised        Model             Optimization
+ Learning       Representation          │
+        │               │                │
+        ↓               ↓                ↓
+ Labeled Data       hθ(x)          Cost Function
+        │               │                │
+        ↓               ↓                ↓
+ Regression      θ₀ + θ₁x           J(θ₀,θ₁)
+        │               │                │
+        ↓               ↓                ↓
+Continuous       θ₀ = Intercept    Least Squares
+Output           θ₁ = Slope             │
+                                      ↓
+                                   Minimize
+                                      │
+                                      ↓
+                               Gradient Descent
+                                      │
+                                      ↓
+                                     α
+                                Learning Rate
+                                      │
+                                      ↓
+                                Update θ₀, θ₁
+                                      │
+                                      ↓
+                                Minimum Cost
+
+
+
+
+أهم القوانين في المحاضرة
+في الصوره  
+
+
+
+
+
+
+
+
+
+
+
+
+🎯 إيه اللي تحفظه للامتحان؟
+Concept             	معناه
+Supervised Learning     	Data معها Labels
+Regression	Predict Continuous Value
+Training Example     	(x,y)
+Hypothesis	Function تعمل Prediction
+θ₀	Y-intercept
+θ₁	Slope
+Scatter Plot	عرض نقاط البيانات
+Error	Actual − Prediction
+Least Squares	تقليل Squared Errors
+SSE	Sum of Squared Errors
+Cost Function	قياس مدى سوء الـ Model
+Gradient Descent	Algorithm لتقليل Cost
+α	Learning Rate
+Iteration	خطوة من خطوات الـ Optimization
+Minimum	أقل قيمة للـ Cost
+🔥 الخلاصة في 6 خطوات
+1️⃣ Data
+   ↓
+2️⃣ Hypothesis
+   hθ(x)=θ₀+θ₁x
+   ↓
+3️⃣ Prediction
+   ↓
+4️⃣ Calculate Error
+   ↓
+5️⃣ Cost Function
+   ↓
+6️⃣ Gradient Descent
+   ↓
+Find θ₀ & θ₁
+that minimize Cost
+
+
+
+
+
+
